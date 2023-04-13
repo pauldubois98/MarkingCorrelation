@@ -7,7 +7,7 @@
 \title{Marking Correlation}
 \author{Romain Lhotte \& Paul Dubois\footnote{both authors contributed equally to this work}}
 
-\newcommand{\Var}[1]{\text{Var}({#1})}
+\newcommand{\Var}[1]{\text{Var}\left( {#1} \right)}
 
 
 \begin{document}
@@ -79,7 +79,7 @@
 	We rounded all numerical values to $10^-2$ for readability purposes.
 	\subsection{Dependence of assessments}
 	Suppose that the score of students on each kaggle were independent.
-	Then probability theory tells us that the standard deviation of the average kaggle score should be $9.85$.
+	Then probability theory tells us that the standard deviation of the average kaggle score should be $9.85$ (using $\Var{\frac{\sum_{i=1}^{5} K_i}{5}} = \frac{\sum_{i=1}^{5} \Var{K_i}}{5^2}$).
 	
 	\subsection{Distribution of the marks}
 	\subsection{Quantification of the inter assessments correlation}
