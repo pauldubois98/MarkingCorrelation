@@ -10,3 +10,4 @@ minimum | 2.500%  | 0.417%
 maximum | 12.500% | 24.167%
 
 ![kaggles densities](figures/kaggles_densities.svg)
+![project densities](figures/project_densities.svg)
