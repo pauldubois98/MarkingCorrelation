@@ -110,13 +110,13 @@
 	The standard deviation is slightly lower on the project, but both are still comparable.
 	
 	\subsection{Dependence of assessments}
-	Suppose that the score of students on each kaggle were independent.
+	Suppose that the score of students on each kaggle is independent.
 	Then probability theory tells us that the standard deviation of the average kaggle score should be $9.85$ (using $\Var{\frac{\sum_{i=1}^{5} K_i}{5}} = \frac{\sum_{i=1}^{5} \Var{K_i}}{5^2}$).
 	However, the variance found is $13.22$.
-	This means that the score on kaggle challenges are not independent of each others.
+	This means that the score on kaggle challenges is not independent of others.
 	It makes sense, since we expect good students to perform well in all assessments.
 	
-	Similarly, the variance of the project mark (average of the mark given by teacher 1 and 2) should be $6.95$ (using $\Var{\frac{P_1 + P_2}{2}} = \frac{\Var{P_1} + \Var{P_2}}{2^2}$) if the two teachers marked as independent random variables.
+	Similarly, the variance of the project mark (average of the mark given by teacher 1 and 2) should be $6.95$ (using $\Var{\frac{P_1 + P_2}{2}} = \frac{\Var{P_1} + \Var{P_2}}{2^2}$) if the two teachers' grades could be treated as independent random variables.
 	However, we observe a variance of $9.13$, leading to the conclusion that the two teachers marks cannot be treated as random independent variables.
 	Again, this is expected, since teachers do not mark randomly (most of the time).
 	
